@@ -1,0 +1,86 @@
+body{
+    background: black;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+
+.cuerpo{
+    overflow: hidden;
+}
+
+.postal{
+ 
+    background: white;
+    width: 600px;
+    height: 350px;
+    margin-top: 30%;
+    padding: 10px;
+
+}
+
+
+.titulo{
+    overflow:hidden;
+   display : inline-flex;
+}
+
+
+.titulo img{
+    max-width: 80px;
+    float:right;
+    margin-left: 340px;
+
+}
+
+
+.contenedorpadre{
+    font-family: 'Handlee', cursive;
+    font-size: 18px;
+}
+
+h1{
+    font-size: 34px;
+}
+
+.parrafo{
+    float: left;
+    width: 50%;
+
+}
+.lineas{
+    float:right;
+    width: 50%;
+   
+}
+
+input{
+    font-size: 20px;
+}
+
+.lineas input{
+    display: block;
+}
+
+.lineas input[type=text]{
+
+    border:none;
+    border-bottom: 1px solid gray;
+    font-family: 'Handlee', cursive;
+    font-size: 19px;
+    width: 280px;
+    margin-bottom: 10px;
+    padding: 3px;
+   
+}
+
+.pie{ 
+    text-align: center; 
+}
+
+.pie input[type=submit]{
+
+    border:none;
+    border-bottom: 1px solid gray;
+}
+
